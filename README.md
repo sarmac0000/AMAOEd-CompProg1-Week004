@@ -58,7 +58,10 @@ Run below command to compile the code.
 Run below to test the application
 
   ./output/Week004/hello3
+  
+  
 2. Week005 - Getting Input from User
+
 2.a. Write a program that accepts user’s section, and display them back with the format “*** Section: user’s section ***”.
 Run below command to compile the code.
 
