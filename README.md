@@ -86,3 +86,42 @@ Run below command to compile the code.
 Run below to test the application
 
   ./output/Week005/userdetail
+  
+  3. Week006 - Condition (IF and SWITCH statements)
+3.1. Write a program that will accept an integer and execute one of the following based on the input using IF statements:
+a. If 0, display only “Hello World”.
+b. If 1, display only “I am Groot”.
+c. If 2, display only “To the Top”.
+d. If 3, display only “Where is the horizon”.
+e. If 4, display only “I do not know”.
+f. If none of the above, display only “Yeah, I will.”.
+Run below command to compile the code.
+
+  g++ -g src/Week006/if.cpp -o output/Week006/if -lm
+Run below to test the application
+
+  ./output/Week006/if
+3.2. Write a program that will accept an integer and execute one of the following based on the input using SWITCH statements:
+a. If 0, display only “Hello World”.
+b. If 1, display only “I am good”.
+c. If 2, display only “To the Top”.
+d. If 3, display only “Where is the horizon”.
+e. If 4, display only “I do not know”.
+f. If none of the above, display only “Yeah, I will.”.
+Run below command to compile the code.
+
+  g++ -g src/Week006/switch.cpp -o output/Week006/switch -lm
+Run below to test the application
+
+  ./output/Week006/switch
+3.3. Write a program that will divide the two floating points entered by the user (first number entered divided by the second number entered). Make sure your application handles all possible scenarios with floating points.
+Float limits:
+
+    maximum limit = 3.40282e+38  = std::numeric_limits<float>::max()
+    minimum limit = -3.40282e+38 = std::numeric_limits<float>::lowest()
+Run below command to compile the code.
+
+  g++ -g src/Week006/division.cpp -o output/Week006/division -lm
+Run below to test the application
+
+  ./output/Week006/division
