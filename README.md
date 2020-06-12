@@ -1,64 +1,85 @@
-# C++ Programming Language | VS Code
+AMAOEd-CompProg1-Laboratory Exercises
+Exercise, C++ application.
 
+C++ Programming Language | VS Code
 This repository contains a development environment for Visual Studio code to be used by C++ Programming Language of AMA Online Education.
 
-## Specifications
+Requirements
+Download and install Visual Studio Code integrated development environment.
 
-* It needs _MinGW_ installed at **C:/ root directory** in order to work.
+I am using MacOs, so we need the XCode extension (clang). To check if g++ is already installed run below command in using the terminal:
 
-* It is specifically configured for **Visual Studio Code** integrated development environment.
+  g++ --version
+If XCode extension is not yet installed, it will automatically initiate the install for clang.
 
-* It natively supports **Windows** operating system only. For other operating systems, several configurations may still be needed to complete the process.
+Recommended Extensions
+The following are recommended extensions for VS Code ( Mac: ⌘P ):
 
-## Installation Process
+EditorConfig for VS Code by EditorConfig:
 
-1. Using **Git Bash** or any _terminal_,
+ ext install EditorConfig.editorconfig
+C/C++ by Microsoft:
 
-    * [One Time Only] Install the latest version of this GitHub repository by entering the following commands:
+ ext install ms-vscode.cpptools
+Install the g++ compiler
+Install clang or g++ by installing the xcode command line tool. To check if already installed, run below command.
 
-        ```dos
-        mkdir C:/git
-        cd C:/git
-        git clone https://github.com/jmadoremos/amaoed-cpp-template
-        ```
+  g++ --version
+If not yet installed, in my case it automatically download and install the xcode command line tool. I am using Macos Sierra.
 
-    * Update your existing copy to the latest version (provided you have previously done the commands above) by entering the following instead:
+After install run the g++ --version again
 
-        ```dos
-        cd C:/git/amaoed-cpp-template
-        git pull origin master
-        ```
+Code submission / application:
+1. Week004 - Hello World
+Run below command to compile the code.
 
-2. Using any **File Explorer**, navigate to **C:/git/amaoed-cpp-template** to see your local copy of this repository.
+  g++ -g src/Week004/hello.cpp -o output/Week004/hello -lm
+Run below to test the application you should see Hello World!
 
-## Recommended Extensions
+  ./output/Week004/hello
+1.a Task 1
+Run below command to compile the code.
 
-The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>+<kbd>P</kbd>, Windows: <kbd>CTRL</kbd>+<kbd>P</kbd> ):
+  g++ -g src/Week004/hello1.cpp -o output/Week004/hello1 -lm
+Run below to test the application
 
-1. **EditorConfig for VS Code** by EditorConfig:
+  ./output/Week004/hello1
+1.b Task 2
+Run below command to compile the code.
 
-    ```
-    ext install EditorConfig.editorconfig
-    ```
+  g++ -g src/Week004/hello2.cpp -o output/Week004/hello2 -lm
+Run below to test the application
 
-2. **C/C++** by Microsoft:
+  ./output/Week004/hello2
+1.c Task 3
+Run below command to compile the code.
 
-    ```
-    ext install ms-vscode.cpptools
-    ```
+  g++ -g src/Week004/hello3.cpp -o output/Week004/hello3 -lm
+Run below to test the application
 
-## Reminder
+  ./output/Week004/hello3
+2. Week005 - Getting Input from User
+2.a. Write a program that accepts user’s section, and display them back with the format “*** Section: user’s section ***”.
+Run below command to compile the code.
 
-In general, there should be no reason to modify or delete any of the following:
+  g++ -g src/Week005/section.cpp -o output/Week005/section -lm
+Run below to test the application
 
-* **.vscode/** directory and files within
+  ./output/Week005/section
+2.b. Write a program that accepts user’s daily budget and display the product of the daily budget and itself.
+Run below command to compile the code.
 
-* **src/_pause.h** library
+  g++ -g src/Week005/budget.cpp -o output/Week005/budget -lm
+Run below to test the application
 
-* **.editorconfig** file
+  ./output/Week005/budget
+2.c. Write a program that accepts user’s name, password and address and display them back using the format “Hi, I am user’s name. I live at user’s address.”.
+Restrictions:
+	Use only three variables.
+	Make sure you support spaces. (need to use string library and getline method)
+Run below command to compile the code.
 
-* **.gitignore** file
+  g++ -g src/Week005/userdetail.cpp -o output/Week005/userdetail -lm
+Run below to test the application
 
-* [**CHANGELOG**](/CHANGELOG.md)
-
-* [**README**](/README.md)
+  ./output/Week005/userdetail
