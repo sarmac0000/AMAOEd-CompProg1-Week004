@@ -196,3 +196,26 @@ Run below command to compile the code.
 Run below to test the application
 
   ./output/Week009/functionFibonacci
+  
+  7. Week010 - Object-Oriented Programming 1
+7.1. Write a class that will represent a legged mammal. Consider the number of legs, kind of fur, presence of tail.
+Run below command to compile the code.
+
+  g++ -g src/Week010/task1/main.cpp -o output/Week010/mammal -lm
+Run below to test the application
+
+  ./output/Week010/mammal
+7.2. Write a class that will represent a person. Consider the name, address, gender, age and occupation.
+Run below command to compile the code.
+
+  g++ -g src/Week010/task2/main.cpp -o output/Week010/person -lm
+Run below to test the application
+
+  ./output/Week010/person
+7.3. Write a class that will represent polygon. Consider the name, number of sides and color.
+Run below command to compile the code.
+
+  g++ -g src/Week010/task3/main.cpp -o output/Week010/polygon -lm
+Run below to test the application
+
+  ./output/Week010/polygon
