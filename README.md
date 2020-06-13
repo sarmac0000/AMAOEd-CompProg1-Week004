@@ -150,3 +150,26 @@ Run below command to compile the code.
 Run below to test the application
 
   ./output/Week007/dowhile
+  
+  5. Week008 - Dimensions of Data Types (Arrays)
+5.1. Write a program that will accept five (5) integers and display them to the users. You are limited to using only two (2) variables (including the array).
+Run below command to compile the code.
+
+  g++ -g src/Week008/array2var.cpp -o output/Week008/array2var -lm
+Run below to test the application
+
+  ./output/Week008/array2var
+5.2. Write a program that will display an equilateral triangle with a height depending on the user. The minimum height is 1, the maximum height is 10. Use an array to display the specific character on the specific row. The array will be: { 0 := “A”, 1:= “B”, 2 := “C”, 3 := “D”, 4 := “E”, 5 := “F”, 6 := “G”, 7 := “H”, 8 := “I”, 9 := “J” }. You are limited to four (4) variables only (including the array).
+Run below command to compile the code.
+
+  g++ -g src/Week008/arrayTriangle.cpp -o output/Week008/arrayTriangle -lm
+Run below to test the application
+
+  ./output/Week008/arrayTriangle
+5.3. Write a program that will ascendingly sort six (6) integers from the user. Use only four (4) variables (including the array).
+Run below command to compile the code.
+
+  g++ -g src/Week008/arraySort.cpp -o output/Week008/arraySort -lm
+Run below to test the application
+
+  ./output/Week008/arraySort
