@@ -219,3 +219,19 @@ Run below command to compile the code.
 Run below to test the application
 
   ./output/Week010/polygon
+  
+  8. Week011 - Object-Oriented Programming 2
+8.1. Write a class that extends the LeggedMammal class from the previous laboratory exercise. The class will represent a dog. Consider the breed, size and is registered. Initialize all properties of the parent class in the new constructor. This time, promote the use of accessors and mutators for the new properties.
+Run below command to compile the code.
+
+  g++ -g src/Week011/task1/main.cpp -o output/Week011/dog -lm
+Run below to test the application
+
+  ./output/Week011/dog
+8.2. Write a class that extends the Person class from the previous laboratory exercise. The class will represent a student. Consider the academic program, year in college and enrolled university. Initialize all the properties of the parent class in the new constructor. This time, promote the use of accessors and mutators for the new properties.
+Run below command to compile the code.
+
+  g++ -g src/Week011/task2/main.cpp -o output/Week011/student -lm
+Run below to test the application
+
+  ./output/Week011/student
