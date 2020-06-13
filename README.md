@@ -125,3 +125,28 @@ Run below command to compile the code.
 Run below to test the application
 
   ./output/Week006/division
+  
+  4. Week007 - Looping (For, While and Do WHile statements)
+4.1. Write a program using WHILE statement that displays a right triangle using asterisks where the height is at the left corner of the application. The height will depend on the user input.
+Run below command to compile the code.
+
+  g++ -g src/Week007/while.cpp -o output/Week007/while -lm
+Run below to test the application
+
+  ./output/Week007/while
+4.2. Write a program using FOR statement that displays a right triangle using asterisks where the height is at the right corner of the application.The height will depend on the user input.
+Run below command to compile the code.
+
+  g++ -g src/Week007/for.cpp -o output/Week007/for -lm
+Run below to test the application
+
+  ./output/Week007/for
+4.3. Write a program using DO WHILE statement that displays an inverted equilateral triangle using asterisks. No asterisk should be adjacent to one another. The height will depend on the user input.
+[Hint]  You can use an IF statement to eliminate the initial space for the first row.
+
+Run below command to compile the code.
+
+  g++ -g src/Week007/dowhile.cpp -o output/Week007/dowhile -lm
+Run below to test the application
+
+  ./output/Week007/dowhile
