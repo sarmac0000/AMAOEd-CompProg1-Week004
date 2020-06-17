@@ -235,3 +235,26 @@ Run below command to compile the code.
 Run below to test the application
 
   ./output/Week011/student
+  
+  9. Week012 - It's All about Pointers and References 1
+9.1. Write a program that will display the value and logical address of an integer variable with an initial value of 900.
+Run below command to compile the code.
+
+  g++ -g src/Week012/integer.cpp -o output/Week012/integer -lm
+Run below to test the application
+
+  ./output/Week012/integer
+9.2. Write a program that will display the value and logical address of an uninitialized character array with size ten (10) and a pointer pointing to the array. (Hint: you may need to perform some casting.)
+Run below command to compile the code.
+
+  g++ -g src/Week012/char.cpp -o output/Week012/char -lm
+Run below to test the application
+
+  ./output/Week012/char
+9.3. Write a program that will display the value and logical address of an uninitialized float array with size twenty (20) and a reference pointing to the array.
+Run below command to compile the code.
+
+  g++ -g src/Week012/float.cpp -o output/Week012/float -lm
+Run below to test the application
+
+  ./output/Week012/float
