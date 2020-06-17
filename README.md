@@ -258,3 +258,26 @@ Run below command to compile the code.
 Run below to test the application
 
   ./output/Week012/float
+  
+  10. Week013 - It's All about Pointers and References 2
+10.1. Write a program that will change the value of an integer variable with initial value of 654,321 to 27,946 without directly assigning a value to the variable. You cannot create any pointersor references in the main function.
+Run below command to compile the code.
+
+  g++ -g src/Week013/integer.cpp -o output/Week013/integer -lm
+Run below to test the application
+
+  ./output/Week013/integer
+10.2. Write a program that will display the address of a float variable and another variable that shares the same address and value as the first variable. Do not initialize the first variable.
+Run below command to compile the code.
+
+  g++ -g src/Week013/float.cpp -o output/Week013/float -lm
+Run below to test the application
+
+  ./output/Week013/float
+10.3. Write a program that will display the words “This is it!” from a variablewithout assigning any characters to the variable. You cannot use cout << “This is it!” << endl; or any variants of it.
+Run below command to compile the code.
+
+  g++ -g src/Week013/string.cpp -o output/Week013/string -lm
+Run below to test the application
+
+  ./output/Week013/string
